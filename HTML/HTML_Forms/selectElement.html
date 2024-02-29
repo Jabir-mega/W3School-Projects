@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Form Element - select</title>
+</head>
+<body>
+  <form>
+    <label for="cars">Choose a car</label>
+    <select name="Cars" id="cars">
+      <option value="Volvo">Volvo</option>
+      <option value="Saab">Saab</option>
+      <option value="Fiat">Fiat</option>
+      <option value="Audi">Audi</option>
+    </select>
+    <input type="submit">
+  </form>
+  <br><br><br>
+  <p>Pre-Selescted Option</p>
+  <form >
+    <label for="Cars">Choose a Car</label>
+    <select name="Cars" id="Cars">
+      <option value="Volvo">Volvo</option>
+      <option value="Saab">Saab</option>
+      <option value="Fiat" selected>Fiat</option>
+      <option value="Audi">Audi</option>
+    </select>
+    <input type="submit">
+  </form>
+  <br><br><br>
+  <p>Visible Values</p>
+  <form>
+    <label for="Cars">Choose a Car</label>
+    <select name="Cars" id="Cars" size="3">
+      <option value="Volvo">Volvo</option>
+      <option value="Saab">Saab</option>
+      <option value="Fiat">Fiat</option>
+      <option value="Audi">Audi</option>
+    </select><br><br>
+    <input type="submit">
+  </form>
+  <br><br><br>
+  <p>Allow Multiple Selection</p>
+  <form>
+    <label for="Cars">Choose a Car:</label>
+    <select name="Cars" id="Cars" size="4" multiple>
+      <option value="Volvo">Volvo</option>
+      <option value="Saab">Saab</option>
+      <option value="Fiat">Fiat</option>
+      <option value="Audi">Audi</option>
+    </select>
+    <input type="submit">
+  </form>
+
+</body>
+</html>
