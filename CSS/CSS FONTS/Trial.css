@@ -1,0 +1,7 @@
+.font-effect-ice {
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgb(123, 235, 249);
+    text-shadow: 10px 0px 14px  rgb(123, 235, 249);
+    text-decoration-color: blue;
+}
